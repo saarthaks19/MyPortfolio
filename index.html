@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
     <title>Saarthak's Portfolio</title>
     <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./media-queries.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,38 +21,35 @@
         <div class="left">Saarthak's Portfolio</div>
         <div class="right">
           <ul>
-            <li><a href="#no-txt">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#section-education">Education</a></li>
             <li><a href="#section-pro">Projects</a></li>
             <li><a href="#section-con">Contact Me</a></li> 
+
+          <a href="#" class="nav-toggle hamburger">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+          </a>
       </nav>
     </header>
 
     <main>
       <section class="firstsection">
-        <div id="no-txt" class="leftsection">
-         Hi, My name is <span class="purple">Saarthak</span>
-          <div>and I'm a passionate</div>
-          <span id="element"></span>
-        </div>
+        <div class="leftsection">
+          <div class="screenTxt">
+           Hi, My name is <div class="purple">Saarthak</div>
+           and I'm a passionate <div class="purple"> Web Developer.</div>
+         </div>
+      </div>
         <div class="rightsection">
           <img src="./images/bg.png" alt="developer-image" />
         </div>
       
       </section>
     </main>
-   
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
   
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Web Developer.', 'and Web Designer.'],
-      typeSpeed: 50,
-    });
-  </script>
+  
 
  
 
@@ -82,9 +80,9 @@
          
       </div>
     </div>
-  </div>
-  <hr/>
-  </section>
+    </div>
+    <hr/>
+
   </section>
 
   <section class="thirdSection">
@@ -117,6 +115,24 @@
     <h2 id="section-pro">PROJECTS</h2>
     <div class="container">
       <div class="project-container">
+
+        
+        <div class="grid-item">
+          <div class="card">
+            <img src="https://looperinsights.com/wp-content/uploads/2022/02/thibault-penin-AWOl7qqsffM-unsplash.jpg" alt="netflix-logo image">
+            <div class="card-content">
+              <h3>Netflix Clone</h3>
+              <p>The goal of the Netflix clone project is to create
+                a web application that mimics the appearance and features
+                of the well-known streaming service by using HTML and CSS.
+                The project also integrates responsive web design for 
+                different screen sizes.
+              </p>
+              <h3> <a href="https://saarthaks19.github.io/Netflix-Clone/">View Project </a></h3>
+            </div>
+          </div>
+        </div>
+
         <div class="grid-item">
           <div class="card">
             <img src="./images/project1.png" alt="project-1" />
@@ -133,6 +149,8 @@
             </div>
           </div>
         </div>
+
+        
 
         <div class="grid-item">
           <div class="card">
@@ -151,7 +169,7 @@
         </div>
       </div>
     </div>
-    <hr>
+    <hr >
   </section>
 
   <div class="footerContainer">
