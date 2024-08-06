@@ -1,0 +1,156 @@
+/* media-queries.css */
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    nav ul li {
+        margin: 0 23px;
+    }
+    
+    .left {
+        font-size: 1.5rem;
+    }
+    
+    .left:hover {
+        font-size: 1.8rem;
+    }
+
+    .firstsection > div {
+        width: 30%;
+    }
+
+    .rightsection img {
+        width: 80%;
+        margin: 50px 0;
+    }
+
+    .skillheader-text {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .skill-txt {
+        font-size: 30px;
+    }
+
+    .edu {
+        font-size: 40px;
+    }
+
+    .r-education img {
+        width: 400px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    .left {
+        font-size: 1.2rem;
+    }
+
+    .left:hover {
+        font-size: 1.5rem;
+    }
+
+    .firstsection > div {
+        width: 40%;
+    }
+
+    .rightsection img {
+        width: 70%;
+        margin: 40px 0;
+    }
+
+    .skillheader-text {
+        font-size: 35px;
+        margin-top: 40px;
+    }
+
+    .skill-txt {
+        font-size: 25px;
+    }
+
+    .edu {
+        font-size: 35px;
+    }
+
+    .r-education img {
+        width: 300px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .left {
+        font-size: 1rem;
+    }
+
+    .left:hover {
+        font-size: 1.2rem;
+    }
+
+    .firstsection {
+        flex-direction: column;
+        margin: 100px 0;
+    }
+
+    .firstsection > div {
+        width: 80%;
+    }
+
+    .rightsection img {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .skillheader-text {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .skill-txt {
+        font-size: 20px;
+    }
+
+    .edu {
+        font-size: 30px;
+    }
+
+    .r-education img {
+        width: 100%;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .card-content p {
+        width: 100%;
+    }
+
+    .card-content h3 {
+        margin-left: 0;
+    }
+}
