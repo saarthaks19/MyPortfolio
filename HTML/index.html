@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <title>Saarthak's Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./media-queries.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <header>
+  <nav>
+    <div class="left">Saarthak's Portfolio</div>
+    <div class="right">
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#section-education">Education</a></li>
+        <li><a href="#section-pro">Projects</a></li>
+        <li><a href="#section-con">Contact Me</a></li>
+      </ul>
+      <a href="#" class="nav-toggle hamburger">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+</header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <div class="screenTxt">
+           Hi, My name is <div class="purple">Saarthak</div>
+           and I'm a passionate <div class="purple"> Web Developer.</div>
+         </div>
+      </div>
+        <div class="rightsection">
+          <img src="./images/bg.png" alt="developer-image" />
+        </div>
+      </section>
+    </main>
+  
+    <section class="skill-section">
+      <div class="container">
+        <div class="skill-header">
+          <h2 class="skillheader-text">Skills</h2>
+        </div>
+        <div class="skill-png">
+          <div class="skilling">
+            <img class="pics" src="./images/html.png" alt="html">
+            <h3 class="skill-txt">HTML</h3>
+          </div>
+
+          <div class="skilling">
+            <img class="pics" src="./images/css.png" alt="css">
+            <h3 class="skill-txt">CSS</h3>
+          </div>
+
+          <div class="skilling">
+            <img class="pics" src="./images/js.png" alt="javascript"> 
+            <h3 class="skill-txt">JAVASCRIPT</h3>  
+          </div>     
+
+          <div class="skilling"> 
+            <img class="pics" src="./images/c++.png" alt="c++">
+            <h3 class="skill-txt">C++</h3>
+          </div>
+        </div>
+      </div>
+      <hr/>
+    </section>
+
+    <section class="thirdSection">
+      <div class="education-txt">
+        <h3 id="section-education" class="edu">Education</h3>
+      </div>
+
+      <div class="container edc">
+        <div class="l-education">
+          <h3>B.Tech</h3>
+          <p>Delhi Technological University, Rohini, New Delhi. (2021-2025)</p>
+          <hr>
+          <h3>12th</h3>
+          <p>Delhi Public School, Udhampur, J&K (2020-2021)</p>
+          <p>Percentage:84%</p>
+          <hr>
+          <h3>10th</h3>
+          <p>Delhi Public School, Udhampur, J&K (2018-2019) </p>
+          <p>Percentage:80%</p>
+        </div>
+        <div class="r-education">
+          <img src="./images/education.png" alt="education-pic">
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <section id="project">
+      <h2 id="section-pro">PROJECTS</h2>
+      <div class="container">
+        <div class="project-container">
+          <div class="grid-item">
+            <div class="card">
+              <img src="https://looperinsights.com/wp-content/uploads/2022/02/thibault-penin-AWOl7qqsffM-unsplash.jpg" alt="netflix-logo image">
+              <div class="card-content">
+                <h3>Netflix Clone</h3>
+                <p>The goal of the Netflix clone project is to create
+                  a web application that mimics the appearance and features
+                  of the well-known streaming service by using HTML and CSS.
+                  The project also integrates responsive web design for 
+                  different screen sizes.
+                </p>
+                <h3> <a href="https://saarthaks19.github.io/Netflix-Clone/">View Project </a></h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="card">
+              <img src="./images/project1.png" alt="project-1" />
+              <div class="card-content">
+                <h3>MoveIt</h3>
+                <p>
+                The MoveIt website project is a website
+                built using HTML, CSS and Bootstrap. The project
+                incorporates responsive web design principles to
+                ensure compatibility across different devices and 
+                screen sizes.
+                </p>
+                <h3> <a href="https://saarthaks19.github.io/MoveIt" >View Project</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img src="./images/dog.png" alt="project-2" />
+              <div class="card-content">
+                <h3>MeetDog</h3>
+                <p>
+                The MeetDog website project is a clone project
+                built using HTML and CSS . This project focuses
+                on making dogs meet with other dogs just like any
+                other dating wesbite for humans.
+                </p>
+                <h3> <a href="https://saarthaks19.github.io/MeetDog" >View Project</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr >
+    </section>
+
+    <div class="footerContainer">
+      <h2 id="section-con">Contact Me!</h2>
+      <div class="socialIcons">
+        <a href="https://www.instagram.com/saarthak.19/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/saarthak-sharma-a6aa04228/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/saarthaks19" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="mailto:saarthaksharma19@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+      </div>
+      
+      <div class="footerBottom">
+        <p>Copyright &copy;2023, Saarthak Sharma</p>
+      </div>
+    </div>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navList = document.querySelector('.nav-list');
+
+        navToggle.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

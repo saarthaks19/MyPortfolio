@@ -1,0 +1,196 @@
+/* Default Styles (Desktop) */
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Hide hamburger menu by default */
+.nav-toggle {
+    display: none;
+}
+
+/* Media Queries for smaller screens */
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    /* Hide the navigation menu on small screens */
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(50, 50, 95);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    /* Display the hamburger menu */
+    .nav-toggle {
+        display: block;
+        font-size: 1.5rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Show the navigation menu when the hamburger menu is clicked */
+    .nav-list.active {
+        display: flex;
+    }
+
+    /* Style navigation items for mobile */
+    .nav-list li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav-list li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    .nav-list li a:hover {
+        color: rgb(153, 153, 226);
+    }
+
+    /* Adjust layout for Skills and Education sections */
+    .firstsection {
+        flex-direction: column;
+        margin: 70px 0;
+    }
+
+    .firstsection > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .leftsection {
+        font-size: 1.5rem;
+    }
+
+    .rightsection img {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .skill-section {
+        padding: 20px;
+    }
+
+    .skill-header {
+        margin-top: 20px;
+    }
+
+    .skillheader-text {
+        font-size: 1.8rem;
+    }
+
+    .skill-png {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0;
+    }
+
+    .skilling {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .pics {
+        height: 80px;
+        width: auto;
+    }
+
+    .skill-txt {
+        font-size: 1.2rem;
+    }
+
+    .education-txt {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .edc {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .l-education {
+        margin-bottom: 20px;
+    }
+
+    .r-education img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Larger Devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .firstsection {
+        flex-direction: column;
+        margin: 100px 0;
+    }
+
+    .firstsection > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .leftsection {
+        font-size: 2rem;
+    }
+
+    .rightsection img {
+        width: 90%;
+        margin: 30px 0;
+    }
+
+    .skill-section {
+        padding: 40px;
+    }
+
+    .skillheader-text {
+        font-size: 2rem;
+    }
+
+    .skill-png {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skilling {
+        margin: 20px;
+    }
+
+    .pics {
+        height: 100px;
+        width: auto;
+    }
+
+    .skill-txt {
+        font-size: 1.5rem;
+    }
+
+    .education-txt {
+        text-align: center;
+    }
+
+    .edc {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .l-education {
+        margin: 20px;
+    }
+
+    .r-education img {
+        width: 400px;
+        height: auto;
+    }
+}
