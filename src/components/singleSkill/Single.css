@@ -1,0 +1,23 @@
+.single{
+    display: flex;
+    width: 90%;
+    margin: .7vw auto;
+    justify-content: left;
+    gap: 2vw;
+    align-items: center;
+    padding-left:2vw ;
+    .img{
+        width: 1.5vw;
+        height: 1.5vw;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        background-image: url('../../assests/check.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .title{
+        font-size: 1.5vw;
+        font-weight: 400;
+        color: rgb(108, 103, 103);
+    }
+}

@@ -1,0 +1,22 @@
+.inf{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin:auto;
+    color: rgb(0, 0, 0);
+    margin-bottom: .8vw;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1vw;
+        font-weight: 600;
+        .date{
+            font-size:1vw;
+            font-weight:500 ;
+        }
+    }
+    .desc{
+        font-size: 1vw;
+        color: rgb(57, 57, 57);
+    }
+}
